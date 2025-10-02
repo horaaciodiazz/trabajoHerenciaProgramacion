@@ -8,8 +8,7 @@ namespace Library
             int cedula, 
             int calificacion, 
             string vehiculo, 
-            string bio,
-            int capacity) 
+            string bio) 
             : base(nombre, apellido, cedula, calificacion, vehiculo, bio) 
         {
         }

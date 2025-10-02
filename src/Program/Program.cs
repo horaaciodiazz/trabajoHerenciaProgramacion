@@ -1,5 +1,6 @@
 ﻿using Library;
 namespace Ucu.Poo.RideShare
+
 {
     class Program
     {
@@ -35,7 +36,7 @@ namespace Ucu.Poo.RideShare
             */
             User pasajero1 = new Passanger("Juan", "Lopez", 1234567, 3, "No bio");
             User pasajero2 = new Passanger("Maria", "Jose", 2134567, 4, "No");
-            User conductor1 = new Driver("Marco", "Aurelio", 3214567, 5, "Suzuki Alto", "No");
+            User conductor1 = new CommonDriver("Marco", "Aurelio", 3214567, 5, "Suzuki Alto", "No");
             User conductorPool1 = new PoolDriver("Juan", "Díaz", 9876543, 4, "Volkswagen Saveiro", "No", 3);
             UcuRideShare rideShare = new UcuRideShare();
 
